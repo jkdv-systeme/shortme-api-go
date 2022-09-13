@@ -6,6 +6,6 @@ package domain
 // @name ShortLink
 type ShortLink struct {
 	TemporalModel
-	ShortCode   string `gorm:"uniqueIndex"`
-	OriginalUrl string
+	ShortCode   string `json:"short_code" gorm:"uniqueIndex"`
+	OriginalUrl string `json:"original_url"`
 }
