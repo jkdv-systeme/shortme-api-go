@@ -1,0 +1,8 @@
+debug: true
+
+server:
+  port: 4682
+
+# Should be loaded from environment variables!
+database:
+  dsn: <dsn>

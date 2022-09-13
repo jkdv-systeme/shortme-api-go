@@ -1,0 +1,9 @@
+.env
+.bin
+.DS_Store
+
+.idea
+.vscode
+.vs
+
+build-errors.log
