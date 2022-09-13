@@ -16,3 +16,7 @@ This is the API for the short-me project. It is a simple URL shortener.
 - Run `docker-compose up -d`
 - Run `air` to start the server with hot reloading
 - The API will be available at `localhost:4682`
+
+### Hints
+- `utils` already has functions implemented for generating a random string of any length and validating incoming dtos
+- There already is a DTO for the `ShortLink` model in `dtos/links.go`

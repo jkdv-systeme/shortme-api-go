@@ -24,6 +24,6 @@ func NewShortLinkService(db *gorm.DB) ShortLinkService {
 // May return an error when the query fails.
 func (s *shortLinkService) GetAllShortLinks() ([]domain.ShortLink, error) {
 	var shortLinks []domain.ShortLink
-	err := s.db.Find(&shortLinks).Error
+	err := s.db.Find(shortLinks).Error
 	return shortLinks, err
 }
